@@ -41,6 +41,7 @@ body{
     color: rgb(35,34,34);
     border-bottom: grey solid;
 }
+/*Big Pic*/
 #Intro-header{
     margin-top: 8px;
     margin-left: -8px;
@@ -79,10 +80,7 @@ body{
     width: 30em;
     background-color: rgb(33, 37, 46);
 }
-#Introduction h1{
-    line-height: 1.5em;
-    font-size: 24px;
-}
+/*Intro*/
 #Intro-pic{
     background-image: url("harbin.jpg");
     background-size: cover;
@@ -94,16 +92,10 @@ body{
 }
 #space1{
     float: left;
-    background-color: rgb(255,255,255);
+    background-color: white;
     width: 50%;
     height: 720px;
     margin-right: -8px;
-}
-#Introduction h1{
-    margin-top: 80px;
-}
-#Introduction p{
-    margin-top: 80px;
 }
 #Introduction{
     text-align: center;
@@ -112,6 +104,14 @@ body{
     line-height: 1.8em;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
+}
+#Introduction h1{
+    line-height: 1.5em;
+    font-size: 24px;
+    margin-top: 80px;
+}
+#Introduction p{
+    margin-top: 80px;
 }
 #button2 p{
     font-size: 25px;
@@ -133,4 +133,136 @@ body{
     border: rgb(33, 37, 46) solid;
     width: 30em;
     background-color: rgb(33, 37, 46);
+}
+/*Hobbies*/
+#Hobby-pic{
+    background-image: url("pic2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: -8px;
+    height: 45em;
+    width: 50%;
+    float: right;
+}
+#space2{
+    float: right;
+    background-color: white;
+    width: 50%;
+    height: 720px;
+    margin-left: -8px;
+}
+#Hobbies{
+    text-align: center;
+    color: rgb(35,34,34);
+    padding: 50px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+#Hobbies h1{
+    line-height: 1.5em;
+    font-size: 24px;
+    margin-top: 80px;
+}
+#Hobbies p{
+    margin-top: 80px;
+}
+#button3 p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 400em;
+
+}
+#button3 a{
+    color: rgb(35,34,34);
+    border: rgb(35,34,34) solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#button3 a:hover{
+    color: white;
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+}
+/*Link*/
+#Link-pic{
+    background-image: url("pic3.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: -8px;
+    height: 45em;
+    width: 50%;
+    float: left;
+}
+#space3{
+    float: left;
+    background-color: white;
+    width: 50%;
+    height: 720px;
+    margin-right: -8px;
+}
+#Link{
+    text-align: center;
+    color: rgb(35,34,34);
+    padding: 50px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+#Link h1{
+    line-height: 1.5em;
+    font-size: 24px;
+    margin-top: 80px;
+}
+#Link p{
+    margin-top: 80px;
+}
+#button4 p{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 400em;
+
+}
+#button4 a{
+    color: rgb(35,34,34);
+    border: rgb(35,34,34) solid;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#button4 a:hover{
+    color: white;
+    border: rgb(33, 37, 46) solid;
+    width: 30em;
+    background-color: rgb(33, 37, 46);
+}
+#contact{
+    float: left;
+    background-color: black;
+    width: 120%;
+    height: 320px;
+    margin-left: -8px;
+}
+#contact table{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 70px;
+    margin-left: 145px;
+    font-size: 18px;
+}
+#contact td{
+    padding-right: 4em;
+}
+#footer{
+    float: left;
+    background-color: rgb(49,49,49);
+    width: 120%;
+    height: 43px;
+    margin-left: -8px;
 }
